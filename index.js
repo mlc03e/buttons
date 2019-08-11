@@ -18,5 +18,6 @@ function popUpOpen() {
 
   }
 document.querySelector(".popUp1").className ='trasitionPopUp'
+document.querySelector(".popUp2").className ='trasitionPopUp'
 }
 })
