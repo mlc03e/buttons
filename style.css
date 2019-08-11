@@ -71,5 +71,5 @@
 
 }
 .transitionPopUp {
-  transition: 3s ease;
+  transition: right 400px 3s ease;
 }
