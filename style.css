@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.parentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 20%;
+  padding: 1%;
+}
+.btn button {
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 1.5em
+}
+#acceptBtn {
+  background-color: #3cc765;
+}
+#cancelBtn {
+  background-color: #eb4248;
+}
+#acceptBtn:hover {
+  background-color: #ffffff;
+  color: #3cc765;
+  border: solid thin #3cc765;
+}
+#cancelBtn:hover {
+  background-color: #ffffff;
+  color: #eb4248;
+  border: solid thin #eb4248;
+}
+.popUp1 {
+  border: solid ;
+  width: 30%;
+  height: 30%;
+/*   padding: 2%; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family:'Roboto';
+  font-size: 2em;
+  bottom: 0;
+  position: fixed;
+  right: 0;
+/*   display: none; */
+  transition: 3s ease;
+  background-color: #0ac2fa;
+}
+#popUp2 {
+  border: solid ;
+  width: 30%;
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family:'Roboto';
+  font-size: 2em;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+/*   transition: all .5s ease-in-out; */
+  background-color: #0ac2fa;
+
+}
+/* .transition {
+  transition: 3s ease;
+} */
